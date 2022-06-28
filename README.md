@@ -1,5 +1,5 @@
 
-<h1> Graphical Drevative calculator <img src="imgs/logo.png" style=" width: 50px;"> </h1>
+<h1> Graphical Drevative calculator <img src="imgs/logo.png" style=" width: 30px;"> </h1>
 This project was inspired by @ salastro, who created it using Python frameworks.
 
 (https://github.com/salastro/math-expert)
@@ -10,7 +10,7 @@ I started thinking how I could create a project similar to it but using a prog
 <h5> integral calc </h5>
 I'm having trouble with integral calculator, To add an integration feature
 
- **area under the curve** should be calculated , also an increment section may be added to calculate the sum of rectangles defined at the midpoint of the incrementing sections.
+ > **area under the curve** should be calculated , also an > increment section may be added to calculate the sum of rectangles defined at the midpoint of the incrementing sections.
 <br>
 <h2> features </h2>
 <h5>  Supported Operations </h5>
