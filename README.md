@@ -4,7 +4,7 @@ This project was inspired by
 
 [@salastro](https://github.com/salastro) who created it using Python frameworks. you can check his project in this rebo https://github.com/salastro/math-expert .
 <br>
-I started thinking how I could create a project similar to it but using a programming language that was familiar to me, so I used javascript in my project and the user interface was created using HTML, CSS, and bootstrap.
+I started thinking how I could create a project similar to it but with a programming language that I am familiar with, so I used javascript in my project and the user interface was created using HTML, CSS, and bootstrap.
 
 <h2> missing feature </h2>
 <h5> integral calc </h5>
