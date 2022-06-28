@@ -1,6 +1,5 @@
-# graphing-calculator
 
-<h1> Graphical Drevative calculator <img src="imgs/logo.png"> </h1>
+<h1> Graphical Drevative calculator <img src="imgs/logo.png" style=" width: 50px;"> </h1>
 This project was inspired by @ salastro, who created it using Python frameworks.
 
 (https://github.com/salastro/math-expert)
