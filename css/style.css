@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+/* customize */
+
+html::-webkit-scrollbar {
+  width: 15px;
+  
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #532f15;
+  border-radius: 100vw;
+  -webkit-border-radius: 100vw;
+  -moz-border-radius: 100vw;
+  -ms-border-radius: 100vw;
+  -o-border-radius: 100vw;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #ba6329;
+}
+
+body {
+  background-color:sienna !important;
+  color:#FFF !important;
+  font-family: sans-serif;
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:30px;
+  margin:0 0 10px 0;
+  padding-top: 50px;
+}
+input[type="submit"], input[type="button"], a.button {
+	background-color:#8b4513;
+	color:#fff;
+	padding:10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+	text-decoration:none;
+	display:inline-block;
+  height:40px;
+  font-size:20px;
+  font-family:sans-serif;
+  margin:0 0 0 10px;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+  background-color:#EEE;
+}
+#function {
+  margin-bottom:20px;
+}
+.cotainer-fluid{
+  padding-top: 20px;
+  display: flex;
+  margin-left: 20%;
+}
+ #function label {
+  height:40px;
+  line-height:40px;
+  font-size: 28px !important;
+} 
+#function input[type="text"] {
+ padding: 20px !important;
+ margin-top: 5px;
+  width: 70%;
+  height: 20px;
+  float:right;
+}
+
+#range input[type="text"] {
+display: none;
+}
+
+#graph {
+  margin:20px auto 0 auto;
+  width: 20%;
+  height:50px;
+}
+.graphs{
+  display: flex;
+}
+#result {
+  
+  margin-top:10px;
+  border-top:20px solid sienna;
+  border-bottom:20px solid sienna;
+  overflow:hidden;
+  background-color:sienna;
+  text-align:center;
+  max-height:0;
+  margin-bottom:20px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.open #result {
+  max-height:2000px;
+  padding:20px;
+  color:#FFF;
+}
+canvas {
+  margin-bottom: 50px;
+}
+canvas:last-child {
+  margin-bottom: 10px;
+}
+.answer {
+  clear:both;
+  text-align:center;
+}
+.final {
+  color:#FFF;
+  font-size:60px;
+  text-align:left;
+  font-family: 'Open Sans', sans-serif;
+}
+.error {
+  background-color:#6B1010;
+  padding:10px;
+  opacity:0.7;
+  display:inline-block;
+  width:500px;
+  text-align:left;
+}
+
+/* Pretty formula styles */
+.formula {
+  font-family: 'Open Sans', sans-serif;
+  padding:0 10px;
+  margin-bottom:10px;
+}
+.group {
+  display:inline-block;
+  vertical-align:baseline;
+  text-align:center;
+  margin:1px 1px 0 0;
+  padding:0;
+}
+.division {
+  vertical-align: middle;
+}
+.operator {
+  padding:5px;
+}
+.exponent {
+  font-size: 0.7em;
+  vertical-align:super;
+}
+.denom {
+  clear:both;
+  display:block;
+  border-top:1px solid #FFF;
+  padding:0 20px;
+}
+
+@media all and (max-width:700px) {
+  #github {
+    position:relative;
+    width:auto;
+    display:block;
+  }
+  h1 {
+    font-size:24px; 
+  }
+}
+
+@media all and (max-width:500px) {
+  #top {
+    display:block;
+    position:relative;
+  }
+  #function label {
+    width:10%;
+    text-align:right;
+  }
+  #function input[type="text"] {
+    width:70%;
+  }
+  .rangeSection {
+    display:block;
+    margin-bottom:5px;
+  }
+}
