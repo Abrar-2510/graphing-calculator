@@ -10,7 +10,8 @@ I started thinking how I could create a project similar to it but using a prog
 <h5> integral calc </h5>
 I'm having trouble with integral calculator, To add an integration feature
 
- > **area under the curve** should be calculated , also an > increment section may be added to calculate the sum of rectangles defined at the midpoint of the incrementing sections.
+ > **area under the curve** should be calculated , also 
+ > an increment section may be added to calculate the sum of rectangles defined at the midpoint of the incrementing sections.
 <br>
 <h2> features </h2>
 <h5>  Supported Operations </h5>
