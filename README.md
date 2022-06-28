@@ -1,8 +1,6 @@
 
 <h1> Graphical Drevative calculator <img src="imgs/logo.png" style=" width: 30px;"> </h1>
-This project was inspired by
-
- [@salastro](https://github.com/salastro) who created it using Python frameworks.
+This project was inspired by [@salastro](https://github.com/salastro) who created it using Python frameworks.
  
 (https://github.com/salastro/math-expert) 
 I started thinking how I could create a project similar to it but using a programming language that was familiar to me, so I used javascript in my project and the user interface was created using HTML, CSS, and bootstrap.
