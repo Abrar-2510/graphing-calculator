@@ -40,7 +40,7 @@ I'm having trouble with integral calculator, To add an integration feature
 			</li>
 			</ul>
 	</li>
-    <li>some constants:
+    <li>some constants::
 		<ul>
 			<li>pi</li>
 			<li>e</li>
